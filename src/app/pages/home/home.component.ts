@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
+  games = [
+    {
+      name: 'Super Mario Bros',
+      imageLink: 'https://upload.wikimedia.org/wikipedia/en/0/03/Super_Mario_Bros._box.png',
+      label: 'Nintendo',
+      price: 'R$ 299,99',
+      console: 'Nintendo',
+    }
+  ]
 
 }

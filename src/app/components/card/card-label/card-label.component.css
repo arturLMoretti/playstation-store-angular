@@ -1,0 +1,19 @@
+.card-label__container {
+  position: absolute;
+
+  bottom: 90px;
+  right: 0;
+}
+
+.card-label__content {
+  height: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d0d0d;
+  color: white;
+
+  font: 700 0.75rem 'Segoe UI', sans-serif;
+
+  padding: 0 2rem;
+}

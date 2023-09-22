@@ -1,1 +1,9 @@
-<p>card works!</p>
+<a href="#" class="card__container">
+  <img
+    class="card__image"
+    [src]="game.imageLink"
+    [alt]="game.name"
+  >
+  <app-card-label [label]="game.label"></app-card-label>
+  <app-card-pricing [game]="game"></app-card-pricing>
+</a>
